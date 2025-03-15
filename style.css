@@ -23,7 +23,15 @@ html {
     overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+    color: transparent;
+}
+
+
 body {
+    -ms-overflow-style: none;
+    scrollbar-width: 0; 
     background: var(--bg-color);
     color: var(--text-color);
 }

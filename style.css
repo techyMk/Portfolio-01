@@ -36,6 +36,36 @@ body {
     color: var(--text-color);
 }
 
+/* Apply to all input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  background-color: #1f242d; /* Dark background */
+  color: #fff; /* Light text */
+  border: 1px solid #0ef; /* Example border color */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Override autofill styles */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px #1f242d inset !important;
+  -webkit-text-fill-color: #fff !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input:-moz-autofill,
+input:-moz-autofill:hover,
+input:-moz-autofill:focus,
+input:-moz-autofill:active {
+  background-color: #1f242d !important;
+  color: #fff !important;
+}
+
 section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;

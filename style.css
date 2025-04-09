@@ -451,6 +451,10 @@ span {
     font-size: 1.6rem;
 }
 
+.footer-copy {
+    font-size: 1.6rem;
+}
+
 .footer-iconTop a {
     display: inline-flex;
     justify-content: center;

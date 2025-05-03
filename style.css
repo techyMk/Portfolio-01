@@ -604,6 +604,22 @@ span {
     }
 }
 
+@media (max-width: 478px) {
+    .home-content {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .btn, .btn2 {
+        max-width: 100%;
+    }
+    
+    .social-media {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
 @media (max-width: 450px) {
     html {
         font-size: 50%;
